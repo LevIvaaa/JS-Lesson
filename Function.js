@@ -33,8 +33,8 @@ console.log("Result: " + res);
 //summaa(array2);
 //summaa(array3);*/
 
-//ПЕРЕМЕННЫЕ локальные и глобальные
 
+//ПЕРЕМЕННЫЕ локальные и глобальные
 var num = 10;
 
 function info() {
