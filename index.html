@@ -6,11 +6,29 @@
     <title>JS</title>
 </head>
 <body>
+<!--    <p id="text" title="text 1">textt</p>--> 
 
-    <button name="mainButton" onclick="onClickButton(this)">Press on me</button>
+<!--   <span class="simple">1</span>--> 
+<!--   <span class="simple">2</span>--> 
+<!--  <span class="simple">3</span>--> 
+<!--   <span class="simple">4</span>--> 
 
-    <input oninput="onInput(this)">
+    <form id="main-form" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" placeholder="Name" id="name"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="pass" placeholder="Password" id="pass"><br><br>
+        <label for="repass">Check Password</label>
+        <input type="password" name="repass" placeholder="Check Password" id="repass"><br><br>
+        <span>State:</span>
+        <input type="radio" name="state" id="male" value="Man">
+        <label for="male">Man</label>
+        <input type="radio" name="state" id="female" value="Female">
+        <label for="female">Female</label><br><br>
+        <div id="error" style="color: red;"></div>
+        <input type="submit" name="submite" value="Done">
+    </form>
 
-<script src="Events.js"></script>
+<script src="Forms.js"></script>
 </body>
 </html> 
